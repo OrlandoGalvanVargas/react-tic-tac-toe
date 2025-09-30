@@ -1,16 +1,32 @@
-# React + Vite
+# React Tic-Tac-Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Tic-Tac-Toe game built with **React** and **Vite**.  
+Features include:
 
-Currently, two official plugins are available:
+- Interactive 3x3 grid
+- Turn-based gameplay (X/O)
+- Winner detection
+- Move history with time travel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## React Compiler
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/tu-usuario/react-tic-tac-toe.git
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start the development server:
+   ```bash
+   npm run dev
+4. Open your browser and navigate to the local server (usually http://localhost:5173)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Usage
+- Click on any empty square to make a move.
+- The game alternates between X and O automatically.
+- Click on a move in the history list to go back to that point in the game.
+- The game highlights the winner once someone wins.
 
-## Expanding the ESLint configuration
+## License
+This project is licensed under the MIT License.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
